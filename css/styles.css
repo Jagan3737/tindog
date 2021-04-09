@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* Sections */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Title  */
+
+#title .container-fluid{
+  padding-top: 3%;
+  text-align: left;
+}
+
+/* Navbar */
+.navnav {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-bottom: -250px;
+  position: relative;
+  left: 10%;
+}
+
+@media (max-width: 1018px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    margin-bottom: auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Features Section */
+#features {
+  padding: 5%;
+  position: relative;
+  z-index: 1;
+}
+
+/*Font Awesome Icons */
+.sec2fonts {
+  color: #ef8172;
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+
+.sec2fonts:hover {
+  color: #ff4c68;
+}
+
+/* Section 2 Text Alignment */
+.text-alignment {
+  padding: 3rem 1.5rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Carousel Design */
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-image {
+  width: 13%;
+  margin: 30px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-header {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta {
+  padding: 10%;
+}
+
+.cta-header {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Footer Section */
+#footer {
+  padding: 100px;
+}
+
+.footer-fab-icon {
+  padding: 30px 10px;
+}
